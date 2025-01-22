@@ -7,7 +7,19 @@ body {
   color: #333;
   line-height: 1.6;
 }
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
 
+  header img {
+    max-width: 150px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
 /* Header */
 header {
   background-image: url('images/header-bg.jpg'); /* Optional: Hintergrundbild */
